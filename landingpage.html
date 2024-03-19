@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poly:ital@0;1&display=swap');
+  
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poly", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,black 70%,transparent 30%);
+    position:relative;
+    overflow: hidden;
+
+}
+.topnav {overflow: hidden;
+  background-color:transparent;
+  position:fixed;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-size: 50px;
+  
+}
+.topnav a:hover {
+  background-color:red;
+  color: black;
+}
+.topnav a.active {
+  color: white;
+}
+.one{
+  width: 60%;
+  padding-top:100px;
+  margin-left:3rem;
+  display:flex;
+  align-items: center;
+  justify-content:space-around ;
+}
+.two,.three{
+  flex-basis: 50%;
+}
+.two{
+  width:100%;
+}
+.one h1{
+  font-size: 90px;
+  letter-spacing: 1px;
+  color:aliceblue;
+}
+.one p{
+  font-size: 50px;
+  letter-spacing: 1px;
+  color:aliceblue;
+  margin-top:10px;
+}
+.swiper{
+  width: 100rem;
+  height: 100rem;
+}
+.swiper-slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right{
+  position: absolute;
+  right:0%;
+  bottom:20%;
+  color:rgb(95, 4, 4);
+  font-style: italic;
+  font-size: 55px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box{
+  display:flex;
+  align-items: center;
+}
+.right .box {
+  width: 70%;
+}
+.photo{
+  right:3%;
+  bottom:30%;
+  position:absolute;
+}
+.h1{
+  display:flex;
+  position: relative;
+  justify-content: space-between;
+}
+#about {
+            background-color:black;
+            padding: 50px;
+            text-align: center;
+        }
+        #about h1 {
+            font-size: 70px;
+            color: red;
+            margin-bottom: 30px;
+        }
+        #about p {
+            font-size: 50px;
+            color: white;
+            line-height: 1.2;
+        }
+        .social-links {
+        text-align: center;
+        margin-top: 50px;
+    }
+    #Contact{
+background-color:black;
+padding: 10px;
+height: 500px;
+color:red;
+font-size:60px
+ }
+    .social-links a {
+        display: inline-block;
+        margin: 0 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 50px;
+    }
+    .social-links a:hover {
+        color: red;
+    }
+    .instagram-icon::before {
+        content: "\f16d"; /* Instagram icon code */
+        font-family: FontAwesome;
+    }
+    .gmail-icon::before {
+        content: "\f0e0"; /* Gmail icon code */
+        font-family: FontAwesome;
+    }
+    .linkedin-icon::before {
+        content: "\f08c"; /* LinkedIn icon code */
+        font-family: FontAwesome;
+    }
+
+
+
+
+
+</style>
+</head>
+<body><section id="home">
+  <div class="container">
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+    
+      <a class="active" href="#about">About Us</a>
+      <a  class="active" href="#Contact">Contact</a>
+    </div>
+   <div class="one">
+    <div class="two">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"> <img src="two/i6.jpg" height="2000" width="2000"></div>
+          <div class="swiper-slide"> <img src="two/i2.jpg" height="2000" width="2000"></div>
+          <div class="swiper-slide"><img src="two/i1.jpg" height="2000" width="2000"></div>
+          <div class="swiper-slide"> <img src="two/i7.jpg" height="2000" width="2000"></div>
+          <div class="swiper-slide"><img src="two/i3.jpg" height="2000" width="2000"></div>
+          <div class="swiper-slide"><img src="two/i4.jpg" height="2000" width="2000"></div>
+          <div class="swiper-slide"><img src="two/i5.jpg" height="2000" width="2000"></div>
+    </div>
+    </div>
+    </div>
+    <div="three">
+      <h1>Ponni's Hub</h1>
+      <p><I>Premium Food at Affordable Price</I></p>
+     </div> 
+     
+     <div class="photo">
+      <img src="two/girl.png" height="1000" width="1000">
+     </div>
+<div class="right">
+  <div class="box">
+    <div class="inner-box">
+      <h3><B>The Taste That Make You Feel Awesome</B></h3>
+    </div>
+  </div>
+</div></section>
+<section id="about">
+  <div class="cat">
+      <h1 class="text-center">About Us</h1> 
+      <div class="h1">
+        <img src="two/h2.jpg" height="1000" width="1000">
+        <img src="two/h3.jpg" height="1000" width="1000">
+        <img src="two/h5.jpg" height="1000" width="1000">
+</div>
+      <p>Welcome to Ponni's Hub, an extraordinary culinary haven situated in the heart of the city. Since our inception, Ponni's Hub has been a cherished destination for aficionados seeking the pinnacle of gastronomic delight. At Ponni's Hub, we aspire to be more than just a restaurant; we aim to be a conduit for cultural celebration and culinary exploration. Our commitment to excellence extends beyond the kitchen; we strive to foster a warm and welcoming ambiance where every guest feels embraced by the spirit of South Indian hospitality. Through community engagement initiatives and partnerships with local artisans and farmers, we endeavor to enrich and uplift our community. Ponni's Hub is honored to have received accolades such as "Best South Indian Restaurant" by Foodie Magazine and recognition from esteemed culinary authorities. Join us on a journey of flavors as we invite you to savor the essence of South India at Ponni's Hub.</p>
+  </div>
+</section>
+<section id="Contact">
+  <div class="social-links">
+  <h1 class="text-center">Contact</h1>
+  <a href="https://www.instagram.com/pavithra_manivannan02" target="_blank" class="instagram-icon">Instagram</a>
+  <a href="mailto:pavics217@rmkcet.ac.in" class="gmail-icon">Gmail</a>
+  <a href="https://www.linkedin.com/in/Pavithra Manivannan" target="_blank" class="linkedin-icon">LinkedIn</a>
+</div>
+</section>
+      
+      
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+     });
+  </script>
+</body> 
+
+
+
+
+
+
+
